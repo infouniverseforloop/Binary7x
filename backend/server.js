@@ -13,8 +13,8 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(express.json());
 
 /* ====== CONFIG ====== */
-const PORT = parseInt(process.env.PORT || '3000', 10);
-const SIGNAL_INTERVAL_MS = parseInt(process.env.SIGNAL_INTERVAL_MS || '3000', 10);
+const PORT = parseInt(process.env.PORT || '5000', 10);
+const SIGNAL_INTERVAL_MS = parseInt(process.env.SIGNAL_INTERVAL_MS || '5000', 10);
 const MIN_CONF = parseInt(process.env.MIN_BROADCAST_CONF || '35', 10); // testing default lower
 const BINARY_EXPIRY_SECONDS = parseInt(process.env.BINARY_EXPIRY_SECONDS || '60', 10);
 const AUTO_BROADCAST_ON_START = (process.env.AUTO_BROADCAST_ON_START === 'true');
