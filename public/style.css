@@ -1,0 +1,21 @@
+/* public/style.css - clean modern dark */
+:root{--bg:#051021;--card:#07162a;--accent:#00d4ff;--muted:#9fb4c7}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#020612,#051021);color:#e6f7ff}
+.wrap{max-width:980px;margin:18px auto;padding:18px}
+header{display:flex;justify-content:space-between;align-items:center}
+h1{margin:0;color:var(--accent)}
+.owner{font-size:13px;color:var(--muted)}
+.controls{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+select,button{padding:10px 14px;border-radius:10px;border:0;font-weight:700;background:transparent;color:#e6f7ff;box-shadow:inset 0 0 0 1px rgba(255,255,255,0.03)}
+.btn.start{background:linear-gradient(90deg,#00e7ff,#38bdf8);color:#012}
+.btn.next{background:linear-gradient(90deg,#ffd166,#ff7a7a);color:#012}
+.btn.auto{background:#7c3aed;color:#fff}
+.btn.tts{background:#1f2937;color:#fff}
+.panel{margin-top:18px;padding:16px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.06));box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+.panel-small{display:flex;gap:12px;margin-top:8px}
+.stat{padding:8px;border-radius:8px;background:rgba(255,255,255,0.02);min-width:140px}
+.count{margin-top:12px;font-size:18px;color:#ff9b9b}
+.log{margin-top:12px;max-height:240px;overflow:auto;padding:10px;border-radius:8px;background:#011222}
+.meta{font-size:13px;color:#bfefff;margin-top:8px}
+#signalTitle{font-size:18px;font-weight:800;color:#ffd54a}
